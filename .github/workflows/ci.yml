@@ -21,6 +21,16 @@ jobs:
           chmod +x /usr/local/bin/buf
           buf --version
 
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.25'
+
+      - name: Install protoc-gen-go and protoc-gen-go-grpc
+        run: |
+          go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+          go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
+
       - name: Generate pb to pb_tmp
         run: |
           chmod +x scripts/gen-proto.sh
