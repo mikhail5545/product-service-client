@@ -23,7 +23,7 @@ import (
 	"io"
 	"time"
 
-	variantpricepbv1 "github.com/mikhail5545/product-service-client/pb_tmp/pb/proto/product_service/variant/variant_price/v1"
+	variantpricepbv1 "github.com/mikhail5545/product-service-client/pb_tmp/proto/product_service/variant/variant_price/v1"
 	"github.com/mikhail5545/product-service-client/pkg/clients/common"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
