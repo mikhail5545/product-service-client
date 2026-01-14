@@ -1,0 +1,38 @@
+name: ci.yml
+on: [pull_request, push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout client repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout proto repo into proto-deps
+        uses: actions/checkout@v4
+        with:
+          repository: mikhail5545/protos
+          path: proto-deps
+
+      - name: Install buf
+        run: |
+          curl -sSLf "https://github.com/bufbuild/buf/releases/latest/download/buf-$(uname | tr '[:upper:]' '[:lower:]')-x86_64" -o /usr/local/bin/buf
+          chmod +x /usr/local/bin/buf
+          buf --version
+
+      - name: Generate pb to pb_tmp
+        run: ./scripts/gen-proto.sh
+
+      - name: Compare generated pb to pb_tmp
+        run: |
+          if [ -d pb ]; then
+            diff -ru pb pb_tmp || (echo "pb/ is out of date. Run ./scripts/gen-proto.sh and commit changes." && exit 1)
+          else
+            echo "No pb/ directory committed; expected pb/ to contain generated code." && exit 1
+          fi
+
+      - name: Build and Test
+        run: |
+          go mod tidy
+          go test ./... -v
