@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: mikhail5545/protos
-          path: proto-deps
+          path: proto-deps/protos
 
       - name: Install buf
         run: |
@@ -23,9 +23,8 @@ jobs:
 
       - name: Generate pb to pb_tmp
         run: |
-          WORKSPACE_ROOT=$(pwd)
-          chmod +x $WORKSPACE_ROOT/scripts/gen-proto.sh
-          $WORKSPACE_ROOT/scripts/gen-proto.sh make proto-gen
+          chmod +x scripts/gen-proto.sh
+          ./scripts/gen-proto.sh make proto-gen
 
       - name: Compare generated pb to pb_tmp
         run: |
