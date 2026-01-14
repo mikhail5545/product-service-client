@@ -24,7 +24,7 @@ jobs:
       - name: Generate pb to pb_tmp
         run: |
           WORKSPACE_ROOT=$(pwd)
-          .{$WORKSPACE_ROOT}/scripts/gen-proto.sh make proto-gen
+          .$WORKSPACE_ROOT/scripts/gen-proto.sh make proto-gen
 
       - name: Compare generated pb to pb_tmp
         run: |
