@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: proto/product_service/product/product_image/v1/product_image.proto
 
-package product_imagepbv1
+package product_imagev1
 
 import (
 	context "context"

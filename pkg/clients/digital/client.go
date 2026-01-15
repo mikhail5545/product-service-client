@@ -23,7 +23,7 @@ import (
 	"io"
 	"time"
 
-	digitalpbv1 "github.com/mikhail5545/product-service-client/pb_tmp/proto/product_service/digital/v1"
+	digitalpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/digital/v1"
 	"github.com/mikhail5545/product-service-client/pkg/clients/common"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

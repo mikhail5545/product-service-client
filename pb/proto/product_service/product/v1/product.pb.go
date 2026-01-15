@@ -4,13 +4,13 @@
 // 	protoc        (unknown)
 // source: proto/product_service/product/v1/product.proto
 
-package productpbv1
+package productv1
 
 import (
-	v13 "github.com/mikhail5545/protos/gen/go/product_service/collection/v1"
-	v11 "github.com/mikhail5545/protos/gen/go/product_service/product/product_image/v1"
-	v1 "github.com/mikhail5545/protos/gen/go/product_service/variant/v1"
-	v12 "github.com/mikhail5545/protos/go/gen/product_service/category/v1"
+	v12 "github.com/mikhail5545/product-service-client/pb/proto/product_service/category/v1"
+	v13 "github.com/mikhail5545/product-service-client/pb/proto/product_service/collection/v1"
+	v11 "github.com/mikhail5545/product-service-client/pb/proto/product_service/product/product_image/v1"
+	v1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/variant/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
@@ -2148,7 +2148,8 @@ const file_proto_product_service_product_v1_product_proto_rawDesc = "" +
 	"\rAddCollection\x126.proto.product_service.product.v1.AddCollectionRequest\x1a7.proto.product_service.product.v1.AddCollectionResponse\x12\x89\x01\n" +
 	"\x10RemoveCollection\x129.proto.product_service.product.v1.RemoveCollectionRequest\x1a:.proto.product_service.product.v1.RemoveCollectionResponse\x12n\n" +
 	"\aArchive\x120.proto.product_service.product.v1.ArchiveRequest\x1a1.proto.product_service.product.v1.ArchiveResponse\x12n\n" +
-	"\aRestore\x120.proto.product_service.product.v1.RestoreRequest\x1a1.proto.product_service.product.v1.RestoreResponseBMZKgithub.com/mikhail5545/protos/gen/go/product_service/product/v1;productpbv1b\x06proto3"
+	"\aRestore\x120.proto.product_service.product.v1.RestoreRequest\x1a1.proto.product_service.product.v1.RestoreResponseB\xb0\x02\n" +
+	"$com.proto.product_service.product.v1B\fProductProtoP\x01Z[github.com/mikhail5545/product-service-client/pb/proto/product_service/product/v1;productv1\xa2\x02\x03PPP\xaa\x02\x1fProto.ProductService.Product.V1\xca\x02\x1fProto\\ProductService\\Product\\V1\xe2\x02+Proto\\ProductService\\Product\\V1\\GPBMetadata\xea\x02\"Proto::ProductService::Product::V1b\x06proto3"
 
 var (
 	file_proto_product_service_product_v1_product_proto_rawDescOnce sync.Once

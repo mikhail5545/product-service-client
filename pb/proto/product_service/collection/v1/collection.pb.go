@@ -4,7 +4,7 @@
 // 	protoc        (unknown)
 // source: proto/product_service/collection/v1/collection.proto
 
-package collectionpbv1
+package collectionv1
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -2212,7 +2212,8 @@ const file_proto_product_service_collection_v1_collection_proto_rawDesc = "" +
 	"\aPublish\x123.proto.product_service.collection.v1.PublishRequest\x1a4.proto.product_service.collection.v1.PublishResponse\x12t\n" +
 	"\aArchive\x123.proto.product_service.collection.v1.ArchiveRequest\x1a4.proto.product_service.collection.v1.ArchiveResponse\x12t\n" +
 	"\aRestore\x123.proto.product_service.collection.v1.RestoreRequest\x1a4.proto.product_service.collection.v1.RestoreResponse\x12\x9e\x01\n" +
-	"\x15CreateOrUpdateRuleSet\x12A.proto.product_service.collection.v1.CreateOrUpdateRuleSetRequest\x1aB.proto.product_service.collection.v1.CreateOrUpdateRuleSetResponseBSZQgithub.com/mikhail5545/protos/gen/go/product_service/collection/v1;collectionpbv1b\x06proto3"
+	"\x15CreateOrUpdateRuleSet\x12A.proto.product_service.collection.v1.CreateOrUpdateRuleSetRequest\x1aB.proto.product_service.collection.v1.CreateOrUpdateRuleSetResponseB\xc8\x02\n" +
+	"'com.proto.product_service.collection.v1B\x0fCollectionProtoP\x01Zagithub.com/mikhail5545/product-service-client/pb/proto/product_service/collection/v1;collectionv1\xa2\x02\x03PPC\xaa\x02\"Proto.ProductService.Collection.V1\xca\x02\"Proto\\ProductService\\Collection\\V1\xe2\x02.Proto\\ProductService\\Collection\\V1\\GPBMetadata\xea\x02%Proto::ProductService::Collection::V1b\x06proto3"
 
 var (
 	file_proto_product_service_collection_v1_collection_proto_rawDescOnce sync.Once

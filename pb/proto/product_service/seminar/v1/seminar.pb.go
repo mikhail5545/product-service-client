@@ -4,11 +4,11 @@
 // 	protoc        (unknown)
 // source: proto/product_service/seminar/v1/seminar.proto
 
-package seminarpbv1
+package seminarv1
 
 import (
-	v1 "github.com/mikhail5545/protos/gen/go/product_service/product/v1"
-	v11 "github.com/mikhail5545/protos/gen/go/product_service/variant/v1"
+	v1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/product/v1"
+	v11 "github.com/mikhail5545/product-service-client/pb/proto/product_service/variant/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	fieldmaskpb "google.golang.org/protobuf/types/known/fieldmaskpb"
@@ -1465,7 +1465,8 @@ const file_proto_product_service_seminar_v1_seminar_proto_rawDesc = "" +
 	"\x06Update\x12/.proto.product_service.seminar.v1.UpdateRequest\x1a0.proto.product_service.seminar.v1.UpdateResponse\x12\x80\x01\n" +
 	"\rCreateVariant\x126.proto.product_service.seminar.v1.CreateVariantRequest\x1a7.proto.product_service.seminar.v1.CreateVariantResponse\x12\x80\x01\n" +
 	"\rUpdateVariant\x126.proto.product_service.seminar.v1.UpdateVariantRequest\x1a7.proto.product_service.seminar.v1.UpdateVariantResponse\x12n\n" +
-	"\aPublish\x120.proto.product_service.seminar.v1.PublishRequest\x1a1.proto.product_service.seminar.v1.PublishResponseBMZKgithub.com/mikhail5545/protos/gen/go/product_service/seminar/v1;seminarpbv1b\x06proto3"
+	"\aPublish\x120.proto.product_service.seminar.v1.PublishRequest\x1a1.proto.product_service.seminar.v1.PublishResponseB\xb0\x02\n" +
+	"$com.proto.product_service.seminar.v1B\fSeminarProtoP\x01Z[github.com/mikhail5545/product-service-client/pb/proto/product_service/seminar/v1;seminarv1\xa2\x02\x03PPS\xaa\x02\x1fProto.ProductService.Seminar.V1\xca\x02\x1fProto\\ProductService\\Seminar\\V1\xe2\x02+Proto\\ProductService\\Seminar\\V1\\GPBMetadata\xea\x02\"Proto::ProductService::Seminar::V1b\x06proto3"
 
 var (
 	file_proto_product_service_seminar_v1_seminar_proto_rawDescOnce sync.Once

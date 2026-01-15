@@ -23,7 +23,7 @@ import (
 	"io"
 	"time"
 
-	trainingpbv1 "github.com/mikhail5545/product-service-client/pb_tmp/proto/product_service/training/v1"
+	trainingpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/training/v1"
 	"github.com/mikhail5545/product-service-client/pkg/clients/common"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

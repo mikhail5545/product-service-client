@@ -4,7 +4,7 @@
 // 	protoc        (unknown)
 // source: proto/product_service/video/v1/video.proto
 
-package videopbv1
+package videov1
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -487,7 +487,9 @@ const file_proto_product_service_video_v1_video_proto_rawDesc = "" +
 	"\x15UPLOAD_STATUS_ERRORED\x10\x032\xe9\x01\n" +
 	"\fVideoService\x12a\n" +
 	"\x04Ping\x12+.proto.product_service.video.v1.PingRequest\x1a,.proto.product_service.video.v1.PingResponse\x12v\n" +
-	"\vBrokenVideo\x122.proto.product_service.video.v1.BrokenVideoRequest\x1a3.proto.product_service.video.v1.BrokenVideoResponseBIZGgithub.com/mikhail5545/protos/gen/go/product_service/video/v1;videopbv1b\x06proto3"
+	"\vBrokenVideo\x122.proto.product_service.video.v1.BrokenVideoRequest\x1a3.proto.product_service.video.v1.BrokenVideoResponseB\xa0\x02\n" +
+	"\"com.proto.product_service.video.v1B\n" +
+	"VideoProtoP\x01ZWgithub.com/mikhail5545/product-service-client/pb/proto/product_service/video/v1;videov1\xa2\x02\x03PPV\xaa\x02\x1dProto.ProductService.Video.V1\xca\x02\x1dProto\\ProductService\\Video\\V1\xe2\x02)Proto\\ProductService\\Video\\V1\\GPBMetadata\xea\x02 Proto::ProductService::Video::V1b\x06proto3"
 
 var (
 	file_proto_product_service_video_v1_video_proto_rawDescOnce sync.Once

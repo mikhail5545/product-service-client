@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: proto/product_service/category/v1/category.proto
 
-package categorypbv1
+package categoryv1
 
 import (
 	context "context"

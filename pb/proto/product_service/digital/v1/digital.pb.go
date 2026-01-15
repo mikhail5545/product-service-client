@@ -4,7 +4,7 @@
 // 	protoc        (unknown)
 // source: proto/product_service/digital/v1/digital.proto
 
-package digitalpbv1
+package digitalv1
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -1975,7 +1975,8 @@ const file_proto_product_service_digital_v1_digital_proto_rawDesc = "" +
 	"\x06Update\x12/.proto.product_service.digital.v1.UpdateRequest\x1a0.proto.product_service.digital.v1.UpdateResponse\x12n\n" +
 	"\aPublish\x120.proto.product_service.digital.v1.PublishRequest\x1a1.proto.product_service.digital.v1.PublishResponse\x12n\n" +
 	"\aArchive\x120.proto.product_service.digital.v1.ArchiveRequest\x1a1.proto.product_service.digital.v1.ArchiveResponse\x12n\n" +
-	"\aRestore\x120.proto.product_service.digital.v1.RestoreRequest\x1a1.proto.product_service.digital.v1.RestoreResponseBMZKgithub.com/mikhail5545/protos/gen/go/product_service/digital/v1;digitalpbv1b\x06proto3"
+	"\aRestore\x120.proto.product_service.digital.v1.RestoreRequest\x1a1.proto.product_service.digital.v1.RestoreResponseB\xb0\x02\n" +
+	"$com.proto.product_service.digital.v1B\fDigitalProtoP\x01Z[github.com/mikhail5545/product-service-client/pb/proto/product_service/digital/v1;digitalv1\xa2\x02\x03PPD\xaa\x02\x1fProto.ProductService.Digital.V1\xca\x02\x1fProto\\ProductService\\Digital\\V1\xe2\x02+Proto\\ProductService\\Digital\\V1\\GPBMetadata\xea\x02\"Proto::ProductService::Digital::V1b\x06proto3"
 
 var (
 	file_proto_product_service_digital_v1_digital_proto_rawDescOnce sync.Once

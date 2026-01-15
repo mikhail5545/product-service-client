@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: proto/product_service/video/v1/video.proto
 
-package videopbv1
+package videov1
 
 import (
 	context "context"

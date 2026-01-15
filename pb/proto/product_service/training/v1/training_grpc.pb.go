@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: proto/product_service/training/v1/training.proto
 
-package trainingpbv1
+package trainingv1
 
 import (
 	context "context"

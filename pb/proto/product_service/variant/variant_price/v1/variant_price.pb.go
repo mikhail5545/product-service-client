@@ -4,7 +4,7 @@
 // 	protoc        (unknown)
 // source: proto/product_service/variant/variant_price/v1/variant_price.proto
 
-package variant_pricepbv1
+package variant_pricev1
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -1136,7 +1136,8 @@ const file_proto_product_service_variant_variant_price_v1_variant_price_proto_ra
 	"\x0eListIrrelevant\x12E.proto.product_service.variant.variant_price.v1.ListIrrelevantRequest\x1aF.proto.product_service.variant.variant_price.v1.ListIrrelevantResponse\x12\x87\x01\n" +
 	"\x06Create\x12=.proto.product_service.variant.variant_price.v1.CreateRequest\x1a>.proto.product_service.variant.variant_price.v1.CreateResponse\x12\x93\x01\n" +
 	"\n" +
-	"Invalidate\x12A.proto.product_service.variant.variant_price.v1.InvalidateRequest\x1aB.proto.product_service.variant.variant_price.v1.InvalidateResponseBaZ_github.com/mikhail5545/protos/gen/go/product_service/variant/variant_price/v1;variant_pricepbv1b\x06proto3"
+	"Invalidate\x12A.proto.product_service.variant.variant_price.v1.InvalidateRequest\x1aB.proto.product_service.variant.variant_price.v1.InvalidateResponseB\x8d\x03\n" +
+	"2com.proto.product_service.variant.variant_price.v1B\x11VariantPriceProtoP\x01Zogithub.com/mikhail5545/product-service-client/pb/proto/product_service/variant/variant_price/v1;variant_pricev1\xa2\x02\x04PPVV\xaa\x02,Proto.ProductService.Variant.VariantPrice.V1\xca\x02,Proto\\ProductService\\Variant\\VariantPrice\\V1\xe2\x028Proto\\ProductService\\Variant\\VariantPrice\\V1\\GPBMetadata\xea\x020Proto::ProductService::Variant::VariantPrice::V1b\x06proto3"
 
 var (
 	file_proto_product_service_variant_variant_price_v1_variant_price_proto_rawDescOnce sync.Once

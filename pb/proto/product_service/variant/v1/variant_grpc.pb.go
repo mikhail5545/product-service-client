@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: proto/product_service/variant/v1/variant.proto
 
-package variantpbv1
+package variantv1
 
 import (
 	context "context"

@@ -4,11 +4,11 @@
 // 	protoc        (unknown)
 // source: proto/product_service/physical/v1/physical.proto
 
-package physicalpbv1
+package physicalv1
 
 import (
-	v1 "github.com/mikhail5545/protos/gen/go/product_service/product/v1"
-	v11 "github.com/mikhail5545/protos/gen/go/product_service/variant/v1"
+	v1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/product/v1"
+	v11 "github.com/mikhail5545/product-service-client/pb/proto/product_service/variant/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	fieldmaskpb "google.golang.org/protobuf/types/known/fieldmaskpb"
@@ -1243,7 +1243,8 @@ const file_proto_product_service_physical_v1_physical_proto_rawDesc = "" +
 	"\x06Update\x120.proto.product_service.physical.v1.UpdateRequest\x1a1.proto.product_service.physical.v1.UpdateResponse\x12\x82\x01\n" +
 	"\rCreateVariant\x127.proto.product_service.physical.v1.CreateVariantRequest\x1a8.proto.product_service.physical.v1.CreateVariantResponse\x12\x82\x01\n" +
 	"\rUpdateVariant\x127.proto.product_service.physical.v1.UpdateVariantRequest\x1a8.proto.product_service.physical.v1.UpdateVariantResponse\x12p\n" +
-	"\aPublish\x121.proto.product_service.physical.v1.PublishRequest\x1a2.proto.product_service.physical.v1.PublishResponseBOZMgithub.com/mikhail5545/protos/gen/go/product_service/physical/v1;physicalpbv1b\x06proto3"
+	"\aPublish\x121.proto.product_service.physical.v1.PublishRequest\x1a2.proto.product_service.physical.v1.PublishResponseB\xb8\x02\n" +
+	"%com.proto.product_service.physical.v1B\rPhysicalProtoP\x01Z]github.com/mikhail5545/product-service-client/pb/proto/product_service/physical/v1;physicalv1\xa2\x02\x03PPP\xaa\x02 Proto.ProductService.Physical.V1\xca\x02 Proto\\ProductService\\Physical\\V1\xe2\x02,Proto\\ProductService\\Physical\\V1\\GPBMetadata\xea\x02#Proto::ProductService::Physical::V1b\x06proto3"
 
 var (
 	file_proto_product_service_physical_v1_physical_proto_rawDescOnce sync.Once

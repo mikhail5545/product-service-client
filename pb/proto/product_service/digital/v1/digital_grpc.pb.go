@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: proto/product_service/digital/v1/digital.proto
 
-package digitalpbv1
+package digitalv1
 
 import (
 	context "context"

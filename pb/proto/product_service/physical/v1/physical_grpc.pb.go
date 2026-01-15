@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: proto/product_service/physical/v1/physical.proto
 
-package physicalpbv1
+package physicalv1
 
 import (
 	context "context"

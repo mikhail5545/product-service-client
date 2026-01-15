@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: proto/product_service/variant/variant_price/v1/variant_price.proto
 
-package variant_pricepbv1
+package variant_pricev1
 
 import (
 	context "context"

@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: proto/product_service/collection/v1/collection.proto
 
-package collectionpbv1
+package collectionv1
 
 import (
 	context "context"

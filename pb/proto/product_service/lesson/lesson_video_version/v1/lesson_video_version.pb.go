@@ -4,10 +4,10 @@
 // 	protoc        (unknown)
 // source: proto/product_service/lesson/lesson_video_version/v1/lesson_video_version.proto
 
-package lesson_video_versionpbv1
+package lesson_video_versionv1
 
 import (
-	v1 "github.com/mikhail5545/protos/gen/go/product_service/video/v1"
+	v1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/video/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
@@ -1465,7 +1465,8 @@ const file_proto_product_service_lesson_lesson_video_version_v1_lesson_video_ver
 	"\fListArchived\x12I.proto.product_service.lesson.lesson_video_version.v1.ListArchivedRequest\x1aJ.proto.product_service.lesson.lesson_video_version.v1.ListArchivedResponse\x12\x9c\x01\n" +
 	"\tAssociate\x12F.proto.product_service.lesson.lesson_video_version.v1.AssociateRequest\x1aG.proto.product_service.lesson.lesson_video_version.v1.AssociateResponse\x12\x96\x01\n" +
 	"\aPublish\x12D.proto.product_service.lesson.lesson_video_version.v1.PublishRequest\x1aE.proto.product_service.lesson.lesson_video_version.v1.PublishResponse\x12\xa2\x01\n" +
-	"\vDeleteDraft\x12H.proto.product_service.lesson.lesson_video_version.v1.DeleteDraftRequest\x1aI.proto.product_service.lesson.lesson_video_version.v1.DeleteDraftResponseBnZlgithub.com/mikhail5545/protos/gen/go/product_service/lesson/lesson_video_version/v1;lesson_video_versionpbv1b\x06proto3"
+	"\vDeleteDraft\x12H.proto.product_service.lesson.lesson_video_version.v1.DeleteDraftRequest\x1aI.proto.product_service.lesson.lesson_video_version.v1.DeleteDraftResponseB\xba\x03\n" +
+	"8com.proto.product_service.lesson.lesson_video_version.v1B\x17LessonVideoVersionProtoP\x01Z|github.com/mikhail5545/product-service-client/pb/proto/product_service/lesson/lesson_video_version/v1;lesson_video_versionv1\xa2\x02\x04PPLL\xaa\x021Proto.ProductService.Lesson.LessonVideoVersion.V1\xca\x021Proto\\ProductService\\Lesson\\LessonVideoVersion\\V1\xe2\x02=Proto\\ProductService\\Lesson\\LessonVideoVersion\\V1\\GPBMetadata\xea\x025Proto::ProductService::Lesson::LessonVideoVersion::V1b\x06proto3"
 
 var (
 	file_proto_product_service_lesson_lesson_video_version_v1_lesson_video_version_proto_rawDescOnce sync.Once

@@ -4,7 +4,7 @@
 // 	protoc        (unknown)
 // source: proto/product_service/category/v1/category.proto
 
-package categorypbv1
+package categoryv1
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -2029,7 +2029,8 @@ const file_proto_product_service_category_v1_category_proto_rawDesc = "" +
 	"\x06Update\x120.proto.product_service.category.v1.UpdateRequest\x1a1.proto.product_service.category.v1.UpdateResponse\x12p\n" +
 	"\aPublish\x121.proto.product_service.category.v1.PublishRequest\x1a2.proto.product_service.category.v1.PublishResponse\x12p\n" +
 	"\aArchive\x121.proto.product_service.category.v1.ArchiveRequest\x1a2.proto.product_service.category.v1.ArchiveResponse\x12p\n" +
-	"\aRestore\x121.proto.product_service.category.v1.RestoreRequest\x1a2.proto.product_service.category.v1.RestoreResponseBOZMgithub.com/mikhail5545/protos/go/gen/product_service/category/v1;categorypbv1b\x06proto3"
+	"\aRestore\x121.proto.product_service.category.v1.RestoreRequest\x1a2.proto.product_service.category.v1.RestoreResponseB\xb8\x02\n" +
+	"%com.proto.product_service.category.v1B\rCategoryProtoP\x01Z]github.com/mikhail5545/product-service-client/pb/proto/product_service/category/v1;categoryv1\xa2\x02\x03PPC\xaa\x02 Proto.ProductService.Category.V1\xca\x02 Proto\\ProductService\\Category\\V1\xe2\x02,Proto\\ProductService\\Category\\V1\\GPBMetadata\xea\x02#Proto::ProductService::Category::V1b\x06proto3"
 
 var (
 	file_proto_product_service_category_v1_category_proto_rawDescOnce sync.Once

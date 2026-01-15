@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: proto/product_service/seminar/v1/seminar.proto
 
-package seminarpbv1
+package seminarv1
 
 import (
 	context "context"

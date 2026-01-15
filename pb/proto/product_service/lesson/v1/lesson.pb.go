@@ -4,11 +4,11 @@
 // 	protoc        (unknown)
 // source: proto/product_service/lesson/v1/lesson.proto
 
-package lessonpbv1
+package lessonv1
 
 import (
-	v11 "github.com/mikhail5545/protos/gen/go/product_service/digital/v1"
-	v1 "github.com/mikhail5545/protos/gen/go/product_service/lesson/lesson_video_version/v1"
+	v11 "github.com/mikhail5545/product-service-client/pb/proto/product_service/digital/v1"
+	v1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/lesson/lesson_video_version/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	fieldmaskpb "google.golang.org/protobuf/types/known/fieldmaskpb"
@@ -2223,7 +2223,8 @@ const file_proto_product_service_lesson_v1_lesson_proto_rawDesc = "" +
 	"\x06Update\x12..proto.product_service.lesson.v1.UpdateRequest\x1a/.proto.product_service.lesson.v1.UpdateResponse\x12l\n" +
 	"\aPublish\x12/.proto.product_service.lesson.v1.PublishRequest\x1a0.proto.product_service.lesson.v1.PublishResponse\x12l\n" +
 	"\aArchive\x12/.proto.product_service.lesson.v1.ArchiveRequest\x1a0.proto.product_service.lesson.v1.ArchiveResponse\x12l\n" +
-	"\aRestore\x12/.proto.product_service.lesson.v1.RestoreRequest\x1a0.proto.product_service.lesson.v1.RestoreResponseBKZIgithub.com/mikhail5545/protos/gen/go/product_service/lesson/v1;lessonpbv1b\x06proto3"
+	"\aRestore\x12/.proto.product_service.lesson.v1.RestoreRequest\x1a0.proto.product_service.lesson.v1.RestoreResponseB\xa8\x02\n" +
+	"#com.proto.product_service.lesson.v1B\vLessonProtoP\x01ZYgithub.com/mikhail5545/product-service-client/pb/proto/product_service/lesson/v1;lessonv1\xa2\x02\x03PPL\xaa\x02\x1eProto.ProductService.Lesson.V1\xca\x02\x1eProto\\ProductService\\Lesson\\V1\xe2\x02*Proto\\ProductService\\Lesson\\V1\\GPBMetadata\xea\x02!Proto::ProductService::Lesson::V1b\x06proto3"
 
 var (
 	file_proto_product_service_lesson_v1_lesson_proto_rawDescOnce sync.Once

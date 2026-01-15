@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: proto/product_service/lesson/v1/lesson.proto
 
-package lessonpbv1
+package lessonv1
 
 import (
 	context "context"

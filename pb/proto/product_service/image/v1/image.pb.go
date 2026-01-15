@@ -4,7 +4,7 @@
 // 	protoc        (unknown)
 // source: proto/product_service/image/v1/image.proto
 
-package imagepbv1
+package imagev1
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -538,7 +538,9 @@ const file_proto_product_service_image_v1_image_proto_rawDesc = "" +
 	"\fImageService\x12a\n" +
 	"\x04Ping\x12+.proto.product_service.image.v1.PingRequest\x1a,.proto.product_service.image.v1.PingResponse\x12v\n" +
 	"\vBrokenImage\x122.proto.product_service.image.v1.BrokenImageRequest\x1a3.proto.product_service.image.v1.BrokenImageResponse\x12g\n" +
-	"\x06Delete\x12-.proto.product_service.image.v1.DeleteRequest\x1a..proto.product_service.image.v1.DeleteResponseBIZGgithub.com/mikhail5545/protos/gen/go/product_service/image/v1;imagepbv1b\x06proto3"
+	"\x06Delete\x12-.proto.product_service.image.v1.DeleteRequest\x1a..proto.product_service.image.v1.DeleteResponseB\xa0\x02\n" +
+	"\"com.proto.product_service.image.v1B\n" +
+	"ImageProtoP\x01ZWgithub.com/mikhail5545/product-service-client/pb/proto/product_service/image/v1;imagev1\xa2\x02\x03PPI\xaa\x02\x1dProto.ProductService.Image.V1\xca\x02\x1dProto\\ProductService\\Image\\V1\xe2\x02)Proto\\ProductService\\Image\\V1\\GPBMetadata\xea\x02 Proto::ProductService::Image::V1b\x06proto3"
 
 var (
 	file_proto_product_service_image_v1_image_proto_rawDescOnce sync.Once

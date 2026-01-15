@@ -5,11 +5,10 @@ Thin Go client wrapper for the ProductService.
 Getting started (local)
 1. Ensure buf is installed: https://docs.buf.build/installation
 2. Generate pb locally:
-    - `make proto-gen`
+    - `chmod -x /scripts/gen-proto.sh && make proto-gen`
     - Commit the generated `pb/` directory: `git add pb && git commit -m "Regenerate pb"`
-3. Alternative:
-    - `./scripts/gen-proto.sh make proto-gen`
-4. Run tests:
+    - In case of buf `Failure: 403 Forbidden`, check proxy settings if it is enabled, this causes a lot of trouble fetching dependencies from buf.build.
+3. Run tests:
     - `make test`
 
 Development with local proto repo

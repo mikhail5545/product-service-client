@@ -4,10 +4,10 @@
 // 	protoc        (unknown)
 // source: proto/product_service/product/product_image/v1/product_image.proto
 
-package product_imagepbv1
+package product_imagev1
 
 import (
-	v1 "github.com/mikhail5545/protos/gen/go/product_service/image/v1"
+	v1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/image/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
@@ -668,7 +668,8 @@ const file_proto_product_service_product_product_image_v1_product_image_proto_ra
 	"\tAssociate\x12@.proto.product_service.product.product_image.v1.AssociateRequest\x1aA.proto.product_service.product.product_image.v1.AssociateResponse\x12\x99\x01\n" +
 	"\fDisassociate\x12C.proto.product_service.product.product_image.v1.DisassociateRequest\x1aD.proto.product_service.product.product_image.v1.DisassociateResponse\x12\x8a\x01\n" +
 	"\aSetMain\x12>.proto.product_service.product.product_image.v1.SetMainRequest\x1a?.proto.product_service.product.product_image.v1.SetMainResponse\x12\xb4\x01\n" +
-	"\x15DeleteAllAssociations\x12L.proto.product_service.product.product_image.v1.DeleteAllAssociationsRequest\x1aM.proto.product_service.product.product_image.v1.DeleteAllAssociationsResponseBaZ_github.com/mikhail5545/protos/gen/go/product_service/product/product_image/v1;product_imagepbv1b\x06proto3"
+	"\x15DeleteAllAssociations\x12L.proto.product_service.product.product_image.v1.DeleteAllAssociationsRequest\x1aM.proto.product_service.product.product_image.v1.DeleteAllAssociationsResponseB\x8d\x03\n" +
+	"2com.proto.product_service.product.product_image.v1B\x11ProductImageProtoP\x01Zogithub.com/mikhail5545/product-service-client/pb/proto/product_service/product/product_image/v1;product_imagev1\xa2\x02\x04PPPP\xaa\x02,Proto.ProductService.Product.ProductImage.V1\xca\x02,Proto\\ProductService\\Product\\ProductImage\\V1\xe2\x028Proto\\ProductService\\Product\\ProductImage\\V1\\GPBMetadata\xea\x020Proto::ProductService::Product::ProductImage::V1b\x06proto3"
 
 var (
 	file_proto_product_service_product_product_image_v1_product_image_proto_rawDescOnce sync.Once

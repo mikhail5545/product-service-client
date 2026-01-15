@@ -4,12 +4,12 @@
 // 	protoc        (unknown)
 // source: proto/product_service/variant/v1/variant.proto
 
-package variantpbv1
+package variantv1
 
 import (
-	v12 "github.com/mikhail5545/protos/gen/go/product_service/digital/v1"
-	v11 "github.com/mikhail5545/protos/gen/go/product_service/lesson/v1"
-	v1 "github.com/mikhail5545/protos/gen/go/product_service/variant/variant_price/v1"
+	v12 "github.com/mikhail5545/product-service-client/pb/proto/product_service/digital/v1"
+	v11 "github.com/mikhail5545/product-service-client/pb/proto/product_service/lesson/v1"
+	v1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/variant/variant_price/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
@@ -2353,7 +2353,8 @@ const file_proto_product_service_variant_v1_variant_proto_rawDesc = "" +
 	"\fListArchived\x125.proto.product_service.variant.v1.ListArchivedRequest\x1a6.proto.product_service.variant.v1.ListArchivedResponse\x12n\n" +
 	"\aPublish\x120.proto.product_service.variant.v1.PublishRequest\x1a1.proto.product_service.variant.v1.PublishResponse\x12n\n" +
 	"\aArchive\x120.proto.product_service.variant.v1.ArchiveRequest\x1a1.proto.product_service.variant.v1.ArchiveResponse\x12n\n" +
-	"\aRestore\x120.proto.product_service.variant.v1.RestoreRequest\x1a1.proto.product_service.variant.v1.RestoreResponseBMZKgithub.com/mikhail5545/protos/gen/go/product_service/variant/v1;variantpbv1b\x06proto3"
+	"\aRestore\x120.proto.product_service.variant.v1.RestoreRequest\x1a1.proto.product_service.variant.v1.RestoreResponseB\xb0\x02\n" +
+	"$com.proto.product_service.variant.v1B\fVariantProtoP\x01Z[github.com/mikhail5545/product-service-client/pb/proto/product_service/variant/v1;variantv1\xa2\x02\x03PPV\xaa\x02\x1fProto.ProductService.Variant.V1\xca\x02\x1fProto\\ProductService\\Variant\\V1\xe2\x02+Proto\\ProductService\\Variant\\V1\\GPBMetadata\xea\x02\"Proto::ProductService::Variant::V1b\x06proto3"
 
 var (
 	file_proto_product_service_variant_v1_variant_proto_rawDescOnce sync.Once
