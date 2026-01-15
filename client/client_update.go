@@ -1,0 +1,74 @@
+package client
+
+import (
+	"context"
+
+	categorypbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/category/v1"
+	collectionpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/collection/v1"
+	digitalpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/digital/v1"
+	lessonpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/lesson/v1"
+	physicalpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/physical/v1"
+	seminarpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/seminar/v1"
+	trainingpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/training/v1"
+	"google.golang.org/grpc"
+)
+
+func (c *CategoryServiceClient) Update(ctx context.Context, in *categorypbv1.UpdateRequest, opt ...grpc.CallOption) (*categorypbv1.UpdateResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.CategoryServiceClient.Update(ctx, in, opt...)
+}
+
+func (c *CollectionServiceClient) Update(ctx context.Context, in *collectionpbv1.UpdateRequest, opt ...grpc.CallOption) (*collectionpbv1.UpdateResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.CollectionServiceClient.Update(ctx, in, opt...)
+}
+
+func (c *AssetServiceClient) Update(ctx context.Context, in *digitalpbv1.UpdateRequest, opt ...grpc.CallOption) (*digitalpbv1.UpdateResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.AssetServiceClient.Update(ctx, in, opt...)
+}
+
+func (c *LessonServiceClient) Update(ctx context.Context, in *lessonpbv1.UpdateRequest, opt ...grpc.CallOption) (*lessonpbv1.UpdateResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.LessonServiceClient.Update(ctx, in, opt...)
+}
+
+func (c *PhysicalServiceClient) Update(ctx context.Context, in *physicalpbv1.UpdateRequest, opt ...grpc.CallOption) (*physicalpbv1.UpdateResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.PhysicalServiceClient.Update(ctx, in, opt...)
+}
+
+func (c *SeminarServiceClient) Update(ctx context.Context, in *seminarpbv1.UpdateRequest, opt ...grpc.CallOption) (*seminarpbv1.UpdateResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.SeminarServiceClient.Update(ctx, in, opt...)
+}
+
+func (c *TrainingServiceClient) Update(ctx context.Context, in *trainingpbv1.UpdateRequest, opt ...grpc.CallOption) (*trainingpbv1.UpdateResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.TrainingServiceClient.Update(ctx, in, opt...)
+}
+
+func (c *PhysicalServiceClient) UpdateVariant(ctx context.Context, in *physicalpbv1.UpdateVariantRequest, opt ...grpc.CallOption) (*physicalpbv1.UpdateVariantResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.PhysicalServiceClient.UpdateVariant(ctx, in, opt...)
+}
+
+func (c *SeminarServiceClient) UpdateVariant(ctx context.Context, in *seminarpbv1.UpdateVariantRequest, opt ...grpc.CallOption) (*seminarpbv1.UpdateVariantResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.SeminarServiceClient.UpdateVariant(ctx, in, opt...)
+}
+
+func (c *TrainingServiceClient) UpdateVariant(ctx context.Context, in *trainingpbv1.UpdateVariantRequest, opt ...grpc.CallOption) (*trainingpbv1.UpdateVariantResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.TrainingServiceClient.UpdateVariant(ctx, in, opt...)
+}
