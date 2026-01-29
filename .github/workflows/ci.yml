@@ -9,12 +9,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Checkout proto repo into proto-deps
-        uses: actions/checkout@v4
-        with:
-          repository: mikhail5545/protos
-          path: proto-deps/protos
-
       - name: Install buf
         run: |
           curl -sSLf "https://github.com/bufbuild/buf/releases/latest/download/buf-$(uname | tr '[:upper:]' '[:lower:]')-x86_64" -o /usr/local/bin/buf
