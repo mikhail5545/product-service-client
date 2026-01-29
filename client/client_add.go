@@ -19,7 +19,7 @@ package client
 import (
 	"context"
 
-	productpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/product/v1"
+	productpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/product/v1"
 	"google.golang.org/grpc"
 )
 

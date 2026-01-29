@@ -19,14 +19,14 @@ package client
 import (
 	"context"
 
-	categorypbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/category/v1"
-	collectionpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/collection/v1"
-	digitalpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/digital/v1"
-	lessonvideoversionpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/lesson/lesson_video_version/v1"
-	lessonpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/lesson/v1"
-	productpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/product/v1"
-	variantpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/variant/v1"
-	variantpricepbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/variant/variant_price/v1"
+	categorypbv1 "github.com/mikhail5545/product-service-client/pb/product_service/category/v1"
+	collectionpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/collection/v1"
+	digitalpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/digital/v1"
+	lessonvideoversionpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/lesson/lesson_video_version/v1"
+	lessonpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/lesson/v1"
+	productpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/product/v1"
+	variantpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/variant/v1"
+	variantpricepbv1 "github.com/mikhail5545/product-service-client/pb/product_service/variant/variant_price/v1"
 	"google.golang.org/grpc"
 )
 

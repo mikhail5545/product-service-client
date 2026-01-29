@@ -19,7 +19,7 @@ package client
 import (
 	"context"
 
-	variantpricepbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/variant/variant_price/v1"
+	variantpricepbv1 "github.com/mikhail5545/product-service-client/pb/product_service/variant/variant_price/v1"
 	"google.golang.org/grpc"
 )
 

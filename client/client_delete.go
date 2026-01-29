@@ -19,8 +19,9 @@ package client
 import (
 	"context"
 
-	imagepbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/image/v1"
-	productimagepbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/product/product_image/v1"
+	imagepbv1 "github.com/mikhail5545/product-service-client/pb/product_service/image/v1"
+	productimagepbv1 "github.com/mikhail5545/product-service-client/pb/product_service/product/product_image/v1"
+	videopbv1 "github.com/mikhail5545/product-service-client/pb/product_service/video/v1"
 	"google.golang.org/grpc"
 )
 
@@ -38,4 +39,28 @@ func (c *ImageServiceClient) Delete(ctx context.Context, in *imagepbv1.DeleteReq
 	ctx, cancel := setTimeout(ctx, c.config.timeout)
 	defer cancel()
 	return c.ImageServiceClient.Delete(ctx, in, opt...)
+}
+
+func (c *ImageServiceClient) ForceDelete(ctx context.Context, in *imagepbv1.ForceDeleteRequest, opt ...grpc.CallOption) (*imagepbv1.ForceDeleteResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.ImageServiceClient.ForceDelete(ctx, in, opt...)
+}
+
+func (c *ImageServiceClient) ForceDeleteBatch(ctx context.Context, in *imagepbv1.ForceDeleteBatchRequest, opt ...grpc.CallOption) (*imagepbv1.ForceDeleteBatchResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.ImageServiceClient.ForceDeleteBatch(ctx, in, opt...)
+}
+
+func (c *VideoServiceClient) Delete(ctx context.Context, in *videopbv1.DeleteRequest, opt ...grpc.CallOption) (*videopbv1.DeleteResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.VideoServiceClient.Delete(ctx, in, opt...)
+}
+
+func (c *VideoServiceClient) ForceDelete(ctx context.Context, in *videopbv1.ForceDeleteRequest, opt ...grpc.CallOption) (*videopbv1.ForceDeleteResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.VideoServiceClient.ForceDelete(ctx, in, opt...)
 }

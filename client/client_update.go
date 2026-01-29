@@ -19,13 +19,13 @@ package client
 import (
 	"context"
 
-	categorypbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/category/v1"
-	collectionpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/collection/v1"
-	digitalpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/digital/v1"
-	lessonpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/lesson/v1"
-	physicalpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/physical/v1"
-	seminarpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/seminar/v1"
-	trainingpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/training/v1"
+	categorypbv1 "github.com/mikhail5545/product-service-client/pb/product_service/category/v1"
+	collectionpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/collection/v1"
+	digitalpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/digital/v1"
+	lessonpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/lesson/v1"
+	physicalpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/physical/v1"
+	seminarpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/seminar/v1"
+	trainingpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/training/v1"
 	"google.golang.org/grpc"
 )
 

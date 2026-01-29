@@ -19,8 +19,8 @@ package client
 import (
 	"context"
 
-	lessonvideoversionpbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/lesson/lesson_video_version/v1"
-	productimagepbv1 "github.com/mikhail5545/product-service-client/pb/proto/product_service/product/product_image/v1"
+	lessonvideoversionpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/lesson/lesson_video_version/v1"
+	productimagepbv1 "github.com/mikhail5545/product-service-client/pb/product_service/product/product_image/v1"
 	"google.golang.org/grpc"
 )
 
