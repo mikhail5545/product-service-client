@@ -22,10 +22,12 @@ import (
 	categorypbv1 "github.com/mikhail5545/product-service-client/pb/product_service/category/v1"
 	collectionpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/collection/v1"
 	digitalpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/digital/v1"
+	imagepbv1 "github.com/mikhail5545/product-service-client/pb/product_service/image/v1"
 	lessonpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/lesson/v1"
 	physicalpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/physical/v1"
 	seminarpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/seminar/v1"
 	trainingpbv1 "github.com/mikhail5545/product-service-client/pb/product_service/training/v1"
+	videopbv1 "github.com/mikhail5545/product-service-client/pb/product_service/video/v1"
 	"google.golang.org/grpc"
 )
 
@@ -87,4 +89,16 @@ func (c *TrainingServiceClient) UpdateVariant(ctx context.Context, in *trainingp
 	ctx, cancel := setTimeout(ctx, c.config.timeout)
 	defer cancel()
 	return c.TrainingServiceClient.UpdateVariant(ctx, in, opt...)
+}
+
+func (c *VideoServiceClient) Update(ctx context.Context, in *videopbv1.UpdateRequest, opt ...grpc.CallOption) (*videopbv1.UpdateResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.VideoServiceClient.Update(ctx, in, opt...)
+}
+
+func (c *ImageServiceClient) Update(ctx context.Context, in *imagepbv1.UpdateRequest, opt ...grpc.CallOption) (*imagepbv1.UpdateResponse, error) {
+	ctx, cancel := setTimeout(ctx, c.config.timeout)
+	defer cancel()
+	return c.ImageServiceClient.Update(ctx, in, opt...)
 }
